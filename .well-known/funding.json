@@ -10,7 +10,7 @@
     "description": "Developer of PlanSmart, an AI-powered open-source business planner for small-town entrepreneurs in India.",
     "webpageUrl": {
       "url": "https://github.com/anasderaiya/plansmart",
-      "wellKnown": "https://github.com/anasderaiya/plansmart/.well-known/funding-manifest-urls"
+      "wellKnown": "https://github.com/anasderaiya/plansmart/blob/main/.well-known/funding-manifest-url"
     }
   },
 
