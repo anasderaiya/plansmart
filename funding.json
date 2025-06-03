@@ -1,16 +1,58 @@
 {
-  "name": "PlanSmart",
-  "description": "AI-powered open-source business planner for small-town entrepreneurs in India. Step-by-step clarity with AI suggestions and local business templates.",
+  "version": "v1.0.0",
+
   "entity": {
     "type": "individual",
+    "role": "owner",
     "name": "Anas Deraiya",
-    "webpageUrl": "https://nord.designme.shop/index.html"
+    "email": "anashderaiya@gmail.com",
+    "phone": "+919662101511",
+    "description": "Developer of PlanSmart, an AI-powered open-source business planner for small-town entrepreneurs in India.",
+    "webpageUrl": {
+      "url": "https://nord.designme.shop/index.html",
+      "wellKnown": ""
+    }
   },
-  "repositoryUrl": "https://github.com/anasderaiya/plansmart",
-  "license": "MIT",
-  "tags": ["AI", "business", "planner", "open-source", "India", "small-town"],
-  "fundingGoal": {
-    "amount": 150000,
-    "currency": "INR"
+
+  "projects": [
+    {
+      "guid": "plansmart",
+      "name": "PlanSmart",
+      "description": "AI-powered open-source business planner for small-town entrepreneurs in India.",
+      "webpageUrl": {
+        "url": "https://nord.designme.shop/index.html",
+        "wellKnown": ""
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/anasderaiya/plansmart",
+        "wellKnown": ""
+      },
+      "licenses": ["spdx:MIT"],
+      "tags": ["ai", "business", "planner", "open-source", "india", "small-town"]
+    }
+  ],
+
+  "funding": {
+    "channels": [
+      {
+        "guid": "oksbi-upi",
+        "type": "payment-provider",
+        "address": "anashderaiya@oksbi",
+        "description": "UPI payment via OK SBI"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "monthly-support",
+        "status": "active",
+        "name": "Monthly Support",
+        "description": "Monthly funding plan for PlanSmart development",
+        "amount": 50000,
+        "currency": "INR",
+        "frequency": "monthly",
+        "channels": ["oksbi-upi"]
+      }
+    ],
+    "history": []
   }
 }
