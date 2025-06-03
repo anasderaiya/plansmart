@@ -1,0 +1,58 @@
+{
+  "version": "v1.0.0",
+
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Anas Deraiya",
+    "email": "anashderaiya@gmail.com",
+    "phone": "+919662101511",
+    "description": "Developer of PlanSmart, an AI-powered open-source business planner for small-town entrepreneurs in India.",
+    "webpageUrl": {
+      "url": "https://github.com/anasderaiya/plansmart",
+      "wellKnown": "https://github.com/anasderaiya/plansmart/.well-known/funding-manifest-urls"
+    }
+  },
+
+  "projects": [
+    {
+      "guid": "plansmart",
+      "name": "PlanSmart",
+      "description": "AI-powered open-source business planner for small-town entrepreneurs in India.",
+      "webpageUrl": {
+        "url": "https://github.com/anasderaiya/plansmart",
+        "wellKnown": "https://github.com/anasderaiya/plansmart/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/anasderaiya/plansmart",
+        "wellKnown": "https://github.com/anasderaiya/plansmart/.well-known/funding-manifest-urls"
+      },
+      "licenses": ["spdx:MIT"],
+      "tags": ["ai", "business", "planner", "open-source", "india", "small-town"]
+    }
+  ],
+
+  "funding": {
+    "channels": [
+      {
+        "guid": "oksbi-upi",
+        "type": "payment-provider",
+        "address": "anashderaiya@oksbi",
+        "description": "UPI payment via OK SBI"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "monthly-support",
+        "status": "active",
+        "name": "Monthly Support",
+        "description": "Monthly funding plan for PlanSmart development",
+        "amount": 5000,
+        "currency": "INR",
+        "frequency": "monthly",
+        "channels": ["oksbi-upi"]
+      }
+    ],
+    "history": []
+  }
+}
