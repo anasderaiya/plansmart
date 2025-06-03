@@ -1,12 +1,16 @@
 {
   "name": "PlanSmart",
-  "description": "An open-source AI-powered visual business planner for low-income entrepreneurs and small business owners.",
-  "website": "https://github.com/anasderaiya/plansmart",
-  "repository": "https://github.com/anasderaiya/plansmart",
-  "maintainers": ["anashderaiya@gmail.com"],
-  "needs": {
-    "amount": 25000,
-    "currency": "USD",
-    "purpose": "Build MVP with AI modules, design UI/UX, integrate open-source LLMs, host demo, and publish documentation. Target: rural and small-town users in the Indian subcontinent."
+  "description": "AI-powered open-source business planner for small-town entrepreneurs in India. Step-by-step clarity with AI suggestions and local business templates.",
+  "entity": {
+    "type": "individual",
+    "name": "Anas Deraiya",
+    "webpageUrl": "https://nord.designme.shop/index.html"
+  },
+  "repositoryUrl": "https://github.com/anasderaiya/plansmart",
+  "license": "MIT",
+  "tags": ["AI", "business", "planner", "open-source", "India", "small-town"],
+  "fundingGoal": {
+    "amount": 150000,
+    "currency": "INR"
   }
 }
