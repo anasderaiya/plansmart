@@ -47,7 +47,7 @@
         "status": "active",
         "name": "Monthly Support",
         "description": "Monthly funding plan for PlanSmart development",
-        "amount": 5000,
+        "amount": 50000,
         "currency": "INR",
         "frequency": "monthly",
         "channels": ["oksbi-upi"]
